@@ -1,0 +1,87 @@
+body {
+    background-image: linear-gradient(to bottom, #f7f7f7, #e7e7e7);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.newspaper {
+    background: whitesmoke;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 20px;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.newspaper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.newspaper h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.newspaper p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
